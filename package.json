@@ -1,0 +1,54 @@
+{
+  "name": "newsfeed",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Victor Dahlin"
+  },
+  "dependencies": {
+    "moment": "^2.22.0",
+    "npm": "^5.8.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victordahlin/js"
+  },
+  "keywords": [
+    "node",
+    "reactjs",
+    "redux",
+    "moment"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fetch-mock": "^6.3.0",
+    "prettier": "1.12.1",
+    "react-test-renderer": "^16.3.1",
+    "redux-devtools": "^3.4.1",
+    "redux-mock-store": "^1.5.1"
+  }
+}
